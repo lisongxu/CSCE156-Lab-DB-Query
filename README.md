@@ -26,15 +26,23 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 -   Conditional clause  
         <http://www.w3schools.com/sql/sql_where.asp>
 
+-   `count()` aggregate function  
+        <http://www.w3schools.com/sql/sql_func_count.asp>
+
+-   `max()` aggregate function  
+        <http://www.w3schools.com/sql/sql_func_max.asp>
+
+-   `min()` aggregate function  
+        <http://www.w3schools.com/sql/sql_func_min.asp>
 
     
 ### Lab Objectives & Topics
 
 Following the lab, you should be able to:
 
--   connect to a database
-
--   perform some basic database operations
+-   perform basic database query operations
+  
+-   understand complex queries using aggregate functions and group by clauses
 
 Note that the lab may involve some concepts or statements not covered (yet) in the class. You should be able to complete the lab without fully understanding them. If you have any questions about them, please feel free to ask our LAs. 
 
@@ -49,98 +57,27 @@ last week, be a navigator next, etc.
 
 ***Note that, each student must answer the lab questions on Canvas for grading.***
 
-## 1. Install MySQL Workbench
+  
 
-MySQL is a free Integrated Development Environment (IDE) for MySQL.  You can download and install
-MySQL Workbench at the following URL.
+## 1. Connect to MySQL server on Linux server
 
-https://www.mysql.com/products/workbench/
-    
-
-## 2. Connect to MySQL server on Linux server
-
-We will use the MySQL server running on a Linux server of School of Computing.
-
-1. Create a new MySQL connection by clicking the plus sign 
-<p align="center">
-<img src="images/Workbench-1.png" alt="create a new connection" width="70%"/>
-</p>  
-
-2. Type the hostname `cse-linux-01.unl.edu`, your MySQL username (e.g., my MySQL username is lxu3), and a connection name (e.g., UNLCSE). We will use the default port number 3306. 
-<p align="center">
-<img src="images/Workbench-2.png" alt="hostname" width="70%"/>
-</p>  
-
-3. Open the MySQL connection 
-<p align="center">
-<img src="images/Workbench-3.png" alt="open a new connection" width="70%"/>
-</p>  
-
-4. Type your MySQL password, and select "Continue Anyway" if there is a "Connection Warning". Then you will be connected to the MySQL server. 
-<p align="center">
-<img src="images/Workbench-4.png" alt="connect" width="70%"/>
-</p>  
-
-## 3. Activities 
-
-Type and execute the following MySQL statements.
-
-Note that after typing each statement, please click the icon highlighted in the red box to execute the statement. Also note that if MySQL Workbench does not find any error in a statement, there is a blue dot before the statement.
-<p align="center">
-<img src="images/Workbench-5.png" alt="execute" width="50%"/>
-</p>  
-
-If MySQL Workbench finds an error in a statement, there is a red x before the statement. For example, line 3 in the following screenshot has a typo `iff`.
-<p align="center">
-<img src="images/Workbench-6.png" alt="invalid" width="50%"/>
-</p>  
-
-### 3.1 Select your database
-
-Replace `lxu3` in the following statement with your MySQL username. 
-
-```sql
-use lxu3;
-```
-
-### 3.2 Create a new table
-
-```sql
-drop table if exists Student;
-create table Student (
-	studentID int not null,
-	studentName varchar(255) not null,
-	studentYear int,
-	studentMajor char(2) not null default "CS",
-        primary key (studentID)
-);
-```
+We still use the MySQL server running on `cse-linux-01.unl.edu` of School of Computing.
 
 
-### 3.3 Insert data to the table
+## 2. Activities 
 
-```sql
-insert into Student (studentID, studentName, studentYear, studentMajor) 
-  values (1, "Alice", 2010, "CS"),
-         (2, "Bob", 2011, "CE"),
-         (3, "Crystal", 2012, "SE");
-insert into Student 
-  values (4, "David", 2013, "CE");
-insert into Student (studentID, studentName) 
-  values (5, "Emma");
-```
 
-### 3.4 Query the table
+### 2.1 Download the 
 
-Try the following queries.
+Download  the provided MySQL file `albumQueries.sql`
 
-```sql
-select * from Student;
-select studentName from Student;
-select studentName from Student where studentMajor="CS" and studentYear<=2012;
-select * from Student where studentYear<=2012 order by studentName;
-```
+### 2.2 Select your database
 
-## 4. Answer the lab questions on Canvas
+Replace `lxu3` in the first line with your MySQL username. 
+
+### 2.3 Execute the file
+
+
+## 3. Answer the lab questions on Canvas
 
 * You do not need to submit any code for this lab. Instead please answer the lab questions on Canvas. 
