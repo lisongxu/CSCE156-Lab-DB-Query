@@ -1,5 +1,5 @@
-# change LOGIN to your cse login
-use LOGIN;
+-- change lxu3 to your MySQL username
+use lxu3;
 
 drop table if exists AlbumSong;
 drop table if exists Song;
@@ -9,44 +9,49 @@ drop table if exists Band;
 drop table if exists Musician;
 
 create table Band (
-  bandId int not null primary key auto_increment,
-  name varchar(200) not null
-)engine=InnoDB,collate=latin1_general_cs;
+  bandId int not null auto_increment,
+  name varchar(200) not null,
+  primary key (bandId)
+);
 
 create table Musician (
-  musicianId int not null primary key auto_increment,
+  musicianId int not null auto_increment,
   firstName varchar(50),
   lastName varchar(50),
-  country varchar(100)
-)engine=InnoDB,collate=latin1_general_cs;
+  country varchar(100),
+  primary key (musicianId)
+);
 
 create table BandMember (
-  bandMemberId int not null primary key auto_increment,
+  bandMemberId int not null auto_increment,
   musicianId int not null,
   bandId int not null,
   yearJoined int,
   foreign key (musicianId) references Musician(musicianId),
   foreign key (bandId) references Band(bandId),
   #prevent duplicate entries
-  constraint uniquePair unique index(musicianId,bandId)
-)engine=InnoDB,collate=latin1_general_cs;
+  unique key(musicianId,bandId),
+  primary key (bandMemberId)
+);
 
 create table Album (
-  albumId int not null primary key auto_increment,
+  albumId int not null auto_increment,
   title varchar(100) not null,
   year int not null,
   number int not null,
   bandId int not null,
-  foreign key (bandId) references Band(bandId)
-)engine=InnoDB,collate=latin1_general_cs;
+  foreign key (bandId) references Band(bandId),
+  primary key (albumId)
+);
 
 create table Song (
-  songId int not null primary key auto_increment,
-  title varchar(255) not null
-)engine=InnoDB,collate=latin1_general_cs;
+  songId int not null auto_increment,
+  title varchar(255) not null,
+  primary key (songId)
+);
 
 create table AlbumSong (
-  albumSongId int not null primary key auto_increment,
+  albumSongId int not null auto_increment,
   trackNumber int not null,
   trackLength int not null,
   albumId int not null,
@@ -54,8 +59,9 @@ create table AlbumSong (
   foreign key (albumId) references Album(albumId),
   foreign key (songId) references Song(songId),
   #prevent duplicate entries
-  constraint uniquePair unique index(albumId,songId)
-)engine=InnoDB,collate=latin1_general_cs;
+  unique key(albumId,songId),
+  primary key (albumSongId)
+);
 
 
 insert into Musician (musicianId,firstName,lastName,country) values (1, 'Lou', 'Reed', 'USA');
