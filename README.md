@@ -58,25 +58,28 @@ last week, be a navigator next, etc.
 ***Note that, each student must answer the lab questions on Canvas for grading.***
 
   
-
 ## 1. Connect to MySQL server on Linux server
 
-We still use the MySQL server running on `cse-linux-01.unl.edu` of School of Computing.
-
+Please connect to the MySQL server running on `cse-linux-01.unl.edu` of School of Computing.
 
 ## 2. Activities 
 
 
-### 2.1 Download the 
+### 2.1 Download the MySQL code
 
-Download  the provided MySQL file `albumQueries.sql`
+Download the provided MySQL file `albumQueries.sql`, which creates multiple tables about music albums, songs, and the artists involved. Below is the E-R diagram of these tables. 
+
+<p align="center">
+<img src="images/album-er.png" alt="ER Diagram" width="50%"/>
+</p> 
 
 ### 2.2 Select your database
 
-Replace `lxu3` in the first line with your MySQL username. 
+Replace `lxu3` in the first line of the code with your MySQL username. 
 
-### 2.3 Execute the file
+### 2.3 Execute the MySQL code
 
+Execute the modified MySQL code
 
 ## 3. Answer the lab questions on Canvas
 
