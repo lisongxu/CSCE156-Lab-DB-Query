@@ -65,4 +65,4 @@ Please connect to the same MySQL server running on `cse-linux-01.unl.edu` of Sch
 
 ## 3. Answer the lab questions on Canvas
 
-* You do not need to submit any code for this lab. Instead please answer the lab questions on Canvas. 
+* You do not need to submit any MySQL code or any MySQL statements for this lab. Instead please answer the lab questions on Canvas. 
