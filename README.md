@@ -1,7 +1,7 @@
 # Computer Science II
-## Lab 7.0 - MySQL
+## Lab 7.0 - MySQL 
 
-An introduction to Structured Query Language (SQL) used in databases.
+An introduction to MySQL used in databases.
 
 This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
 in the [School of Computing](https://computing.unl.edu) 
@@ -11,31 +11,15 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Resources
 
--   Information about databases and tables  
-        <http://dev.mysql.com/doc/refman/5.6/en/getting-information.html>
+-   Examples of MySQL Queries  
+        <https://dev.mysql.com/doc/refman/8.0/en/examples.html>
 
--   Creating table  
-        <https://www.w3schools.com/sql/sql_create_db.asp>
-
--   Inserting data  
-        <http://www.w3schools.com/sql/sql_insert.asp>
-
--   Retrieving data  
-        <http://www.w3schools.com/sql/sql_select.asp>
-
--   Conditional clause  
-        <http://www.w3schools.com/sql/sql_where.asp>
-
--   `count()` aggregate function  
-        <http://www.w3schools.com/sql/sql_func_count.asp>
-
--   `max()` aggregate function  
-        <http://www.w3schools.com/sql/sql_func_max.asp>
-
--   `min()` aggregate function  
-        <http://www.w3schools.com/sql/sql_func_min.asp>
-
+-   MySQL Data Types  
+        <https://dev.mysql.com/doc/refman/8.0/en/data-types.html>
     
+-  MySQL Select Statement
+      <https://dev.mysql.com/doc/refman/8.0/en/select.html>
+   
 ### Lab Objectives & Topics
 
 Following the lab, you should be able to:
