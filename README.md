@@ -14,12 +14,15 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 -   Examples of MySQL Queries  
         <https://dev.mysql.com/doc/refman/8.0/en/examples.html>
 
--   MySQL Data Types  
-        <https://dev.mysql.com/doc/refman/8.0/en/data-types.html>
-    
 -   MySQL Select Statement   
         <https://dev.mysql.com/doc/refman/8.0/en/select.html>
-   
+
+-   MySQL Aggregate Functions
+        <https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html>
+
+-   MySQL Group By Clause
+        <https://dev.mysql.com/doc/refman/8.0/en/group-by-modifiers.html>
+
 ### Lab Objectives & Topics
 
 Following the lab, you should be able to:
