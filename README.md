@@ -51,7 +51,7 @@ Please connect to the same MySQL server running on `cse-linux-01.unl.edu` of Sch
 
 ## 2. Activities 
 
-1. Download the provided MySQL file [`albumQueries.sql`](https://github.com/lisongxu/CSCE156-Lab-DB-Query/), which creates multiple tables about music albums, songs, and the artists involved. Below is the entity-relation diagram of these tables. 
+1. Download the provided MySQL file [`albumQueries.sql`](https://github.com/lisongxu/CSCE156-Lab-DB-Query/albumQueries.sql), which creates multiple tables about music albums, songs, and the artists involved. Below is the entity-relation diagram of these tables. 
 
 <p align="center">
 <img src="images/album-er.png" alt="ER Diagram" width="70%"/>
