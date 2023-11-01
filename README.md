@@ -17,10 +17,10 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 -   MySQL Select Statement   
         <https://dev.mysql.com/doc/refman/8.0/en/select.html>
 
--   MySQL Aggregate Functions
+-   MySQL Aggregate Functions  
         <https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html>
 
--   MySQL Group By Clause
+-   MySQL Group By Clause  
         <https://dev.mysql.com/doc/refman/8.0/en/group-by-modifiers.html>
 
 ### Lab Objectives & Topics
