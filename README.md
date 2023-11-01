@@ -54,7 +54,7 @@ Please connect to the same MySQL server running on `cse-linux-01.unl.edu` of Sch
 1. Download the provided MySQL file [`albumsDB.sql`](albumsDB.sql), which creates multiple tables about music albums, songs, and the artists involved. Below is the entity-relation diagram of these tables. 
 
 <p align="center">
-<img src="images/album-er.png" alt="ER Diagram" width="70%"/>
+<img src="images/album-er.png" alt="ER Diagram" width="90%"/>
 </p> 
 
 2. Replace `lxu3` in the first line of the code with your MySQL username. 
