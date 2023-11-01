@@ -5,7 +5,7 @@ An introduction to MySQL used in databases.
 
 This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
 in the [School of Computing](https://computing.unl.edu) 
-at the [University of Nebraska-Lincoln](https://unl.edu).
+at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
 ## Overview
 
