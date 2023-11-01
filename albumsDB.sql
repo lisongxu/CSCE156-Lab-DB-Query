@@ -1,5 +1,6 @@
--- change lxu3 to your MySQL username
 use lxu3;
+-- change lxu3 to your MySQL username
+-- originally created by Chris Bourke
 
 drop table if exists AlbumSong;
 drop table if exists Song;
