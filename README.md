@@ -17,7 +17,7 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 -   MySQL Data Types  
         <https://dev.mysql.com/doc/refman/8.0/en/data-types.html>
     
--   MySQL Select Statement
+-   MySQL Select Statement   
         <https://dev.mysql.com/doc/refman/8.0/en/select.html>
    
 ### Lab Objectives & Topics
