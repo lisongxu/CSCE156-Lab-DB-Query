@@ -61,7 +61,7 @@ use lxu3;
 
 3. Execute the modified MySQL code, which takes some time to create all the tables and insert all the data. There are two methods to execute the MySQL code in MySQLWorkbench.
    * Method 1: click the icon in the red box of the screenshot to execute the whole script or the selected portion
-   * Method 2: click the icon in the green box to execute only the current statement
+   * Method 2: click the icon in the green box to execute only the current statement, move the cursor to the next statement and click the icon again, ... 
 
 <p align="center">
 <img src="images/execution.png" alt="execution" width="80%"/>
