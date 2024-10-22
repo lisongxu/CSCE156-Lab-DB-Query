@@ -64,7 +64,7 @@ use lxu3;
    * Method 2: click the icon in the green box to execute only the current statement, move the cursor to the next statement and click the icon again, ... 
 
 <p align="center">
-<img src="images/execution.png" alt="execution" width="80%"/>
+<img src="images/execution.png" alt="execution" width="60%"/>
 </p> 
 
 4. Please write select statements to find the information asked in the lab questions on Canvas.
