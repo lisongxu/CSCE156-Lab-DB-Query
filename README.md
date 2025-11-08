@@ -45,7 +45,7 @@ At the start of each lab, you may find a team member by yourself.  One of you wi
 
 Please connect to the MySQL server running on `nuros.unl.edu` of the School of Computing. Please refer to [Lab 5](https://github.com/lisongxu/CSCE156-Lab-DB-Install) for instructions on how to connect to the MySQL server.
 
-Due to recent campus network security maintenance, you may experience difficulties connecting to the MySQL server at nuros.unl.edu, particularly when using an off-campus network. If you encounter this issue, please download, install, and run the [UNL VPN Client](https://services.unl.edu/service/virtual-private-network-vpn-global-protect/vpn-client-installation-guide) before attempting to reconnect to the MySQL server.
+Due to recent campus network security maintenance, you may experience difficulties connecting to the MySQL server at nuros.unl.edu, particularly when using an off-campus network. If you encounter this issue, please download, install, and run the [UNL VPN Client](https://nusupport.nebraska.edu/TDClient/33/Portal/KB/ArticleDet?ID=93) before attempting to reconnect to the MySQL server.
 
 ## 2. The database
 
