@@ -1742,16 +1742,16 @@ insert into AlbumSong (trackNumber,trackLength,albumId,songId) values (10, 344, 
 
 insert into Musician (musicianId,firstName,lastName,country) values (250, 'Florence', 'Welch', 'Great Britain');
 insert into Musician (musicianId,firstName,lastName,country) values (251, 'Isabella', 'Summers', 'Great Britain');
-insert into Musician (musicianId,firstName,lastName,country) values (800, 'Jack', 'Antonoff', 'USA');
+insert into Musician (musicianId,firstName,lastName,country) values (305, 'Jack', 'Antonoff', 'USA');
 
 insert into Band (bandId,name) values (340,'Florence and the Machine');
 insert into Band (bandId,name) values (90,'Childish Gambino');
-insert into Band (bandId,name) values (800,'Bleachers');
+insert into Band (bandId,name) values (305,'Bleachers');
 insert into Band (bandId,name) values (950,'Paul Simon');
 
 insert into BandMember (musicianId,bandId) values (250,340);
 insert into BandMember (musicianId,bandId) values (251,340);
-insert into BandMember (musicianId,bandId) values (800,800);
+insert into BandMember (musicianId,bandId) values (305,305);
 
 #Florence and the Machine (1) Lungs
 insert into Album (albumId,title,year,number,bandId) values (320,'Lungs',2009,1,340);
@@ -1863,7 +1863,7 @@ insert into AlbumSong (trackNumber,trackLength,albumId,songId) values (18, 282, 
 insert into AlbumSong (trackNumber,trackLength,albumId,songId) values (19, 342, 95, 831);
 
 # Bleachers "Strange Desire"
-insert into Album (albumId,title,year,number,bandId) values (800,'Strange Desire',2014,1,800);
+insert into Album (albumId,title,year,number,bandId) values (800,'Strange Desire',2014,1,305);
 
 insert into Song (songId, title) values (4801, 'Wild Heart');
 insert into Song (songId, title) values (4802, 'Rollercoaster');
@@ -2274,7 +2274,6 @@ insert into Musician (musicianId,firstName,lastName,country) values (301, 'Louis
 insert into Musician (musicianId,firstName,lastName,country) values (302, 'Niall', 'Horan', 'England');
 insert into Musician (musicianId,firstName,lastName,country) values (303, 'Liam', 'Payne', 'England');
 insert into Musician (musicianId,firstName,lastName,country) values (304, 'Nate', 'Reuss', 'USA');
-insert into Musician (musicianId,firstName,lastName,country) values (305, 'Jack', 'Antonoff', 'USA');
 insert into Musician (musicianId,firstName,lastName,country) values (306, 'Andrew', 'Dost', 'USA');
 
 insert into Band (bandId,name) values (300,'One Direction');
