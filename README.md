@@ -61,7 +61,7 @@ In this lab, we use a database with multiple tables about music albums, songs, a
   * ***BandMember***: The BandMember table links musicians to bands and represents a many-to-many relationship between the two. It has a unique bandMemberId primary key, and includes foreign keys that reference both bandId and musicianId, as well as a yearJoined date. This design allows the database to track which musicians belong to which band and when they joined.
   * ***Album***: The Album table stores information about music albums. Each album has a unique albumId primary key, a required title, year, and number, and a foreign key bandId indicating which band released it. This creates a one-to-many relationship where each band can release many albums.
   * ***Song***: The Song table holds a catalog of song titles. Each song has a unique songId primary key and a required title. Songs are stored independently from albums so that the database can reuse song records or track songs outside of a specific release.
-  * ***AlbumSong***: The AlbumSong table connects songs to albums and captures track-specific details. It has a unique albumSongId primary key and includes trackNumber, trackLength (in seconds), and foreign keys for both albumId and songId. This structure allows the database to record the order and length of songs as they appear on a particular album.
+  * ***AlbumSong***: The AlbumSong table connects songs to albums and captures track-specific details. It has a unique albumSongId primary key and includes trackNumber, trackLength (length of a song in seconds), and foreign keys for both albumId and songId. This structure allows the database to record the order and length of songs as they appear on a particular album.
 
 
 ## 3. Activities 
