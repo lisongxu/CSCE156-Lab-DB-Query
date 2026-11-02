@@ -50,7 +50,7 @@ Note that if you use an off-campus network, please download, install, and run th
 
 ## 2. The database
 
-In this lab, we use a database with multiple tables about music albums, songs, and the artists involved. Below is the entity-relation diagram of these tables. 
+In this lab, we use a database with multiple tables about music albums, songs, and the artists involved. Below is the entity-relationship diagram of these tables. 
 
 <p align="center">
 <img src="images/album-er.png" alt="ER Diagram" width="90%"/>
